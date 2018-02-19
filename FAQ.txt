@@ -1,0 +1,7 @@
+BDD-in-a-Day Frequently Asked Questions
+
+1) Why is it called "BDD in a Day" when it's only a half-day (4 hour) workshop.
+      There intent is that will be two versions of this workshop. A half-day version for developers who want to focus the more technical parts
+      and a full day version that includes practices to determine which features provide the most value, etc.
+
+=== END OF FILE ===

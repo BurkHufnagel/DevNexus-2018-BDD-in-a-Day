@@ -1,0 +1,10 @@
+<div style="text-align:center">
+    <img id="logo" width="50%" alt="DevNexus Logo" src="assets\DevNexusLogo.png"/>
+</div>
+<h1 style="text-align:left">{{ title }}</h1>
+
+<div ng-app="">
+    <label>Sound: <input id="inputSound" [(ngModel)]="initialSound" placeholder="Sound to repeat"/></label>
+    <button id="echoButton" (click)="makeEcho()">Make echo</button>
+    <p>Echo: <b id="echoSound">{{echoedSound}}</b></p>
+</div>
