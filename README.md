@@ -8,6 +8,6 @@ The BDD-in-a-Day-Setup_Instructions.PDF file contains set up instructions that s
 There's not much in the FAQ file because there haven't been any questions yet about installing and configuring software and hopefully that will continue to be the case.
 
 ## Is something missing?
-We will be doing quite a bit on Wednesday and what's here is essentially just enough to ensure your machine is ready to go. So don't worry that there's not a lot of code here.
+We will be doing quite a bit during the workshop, and what's here is essentially just enough to ensure your machine is ready to go. So don't worry that there's not a lot of code here.
 
-Looking forward to seeing you on Wednesday!
+Looking forward to seeing you soon!

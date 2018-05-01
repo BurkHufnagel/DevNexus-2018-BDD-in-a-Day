@@ -14,7 +14,6 @@ export class AppComponent {
   title = 'BDD in a Day: Echo';
   initialSound = '';
   echoedSound = '';
-  showContent=false;
 
   constructor(private http: HttpClient) {
   }
@@ -24,6 +23,5 @@ export class AppComponent {
     const params = new HttpParams().set('sound', this.initialSound);
     this.http.get('/api/echo', {params, responseType: 'text'})
         .subscribe(response => this.echoedSound = response);
-    this.showContent=true;
   }
 }

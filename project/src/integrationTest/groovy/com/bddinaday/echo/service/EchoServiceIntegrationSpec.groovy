@@ -23,7 +23,7 @@ class EchoServiceIntegrationSpec extends Specification {
 	}
 
 
-	def "it should return a 'Bob' when passed 'Bob'"() {
+	def "it should return a 'Bob... bob...' when passed 'Bob'"() {
 		given: "the sound 'Bob'"
 		def initialSound = "Bob"
 
@@ -38,7 +38,7 @@ class EchoServiceIntegrationSpec extends Specification {
 		response.getStatus() == HttpStatus.OK.value()
 
 		and: "the original sound should have been returned"
-		response.getContentAsString() == "Bob"
+		response.getContentAsString() == "Bob... bob..."
 	}
 
 

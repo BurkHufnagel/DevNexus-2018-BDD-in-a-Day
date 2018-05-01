@@ -1,3 +1,9 @@
+# Mac metadata file
+.DS_Store
+
+#Gradle specific files
+.gradle/
+
 # Compiled class file
 *.class
 
